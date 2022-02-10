@@ -1,0 +1,74 @@
+.focus {
+  transition: transform 0.3s;
+}
+
+.card-title {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.image-style {
+  width: 3em;
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: white;
+}
+
+.font-details-b {
+  font-size: 3em;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.flex-container {
+  display: flex;
+  /* border:1px solid white; */
+  flex-wrap: wrap;
+  /* font-size: 30px; */
+  text-align: center;
+  margin:auto; 
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item-left {
+  flex-wrap: wrap;
+  background-color:black;
+  box-shadow:  1px 1px 2px #000000,
+             -1px -1px 2px #000000;
+  padding: 10px;
+  margin:15px;
+  width:200px;
+  /* flex: 100%; */
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item-left:hover{
+  background: linear-gradient(45deg, #95cbe0 0%, #012c31 100%);
+  cursor: pointer;
+}
+.top-react-icons{
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 500px) {
+ .flex-container {
+    flex: 100%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.POSTMAN{
+  width: 140PX;
+}

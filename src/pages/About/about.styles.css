@@ -1,0 +1,43 @@
+.about {
+  background-color: transparent;
+  /* background-color: black; */
+  font-size: 1.2em;
+  /* margin-bottom:0px; */
+}
+/* .h1,h1{
+
+  line-height: 3.2;
+} */
+.headingTop{
+  margin-top:100px;
+  line-height: 3.2;
+}
+.profile {
+  max-width: 18em;
+  max-height: 18em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* filter: grayscale(2%) sepia(1%) brightness(100%) hue-rotate(30deg)   invert(12%)  */
+}
+
+.my-details {
+  background-color: black;
+  font-weight: 600;
+  text-align: justify;
+  color:rgb(68, 92, 105);
+}
+
+.my-details:hover{
+  background: linear-gradient(45deg, #95cbe0 0%, #012c31 100%);
+  cursor: pointer;
+  color: rgb(7, 7, 7);
+}
+
+@media (max-width: 500px) {
+  .profile {
+    max-width: 12em;
+    max-height: 12em;
+    margin:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* filter: grayscale(2%) sepia(1%) brightness(100%) hue-rotate(30deg)   invert(12%)  */
+  }
+ }

@@ -1,0 +1,88 @@
+#section5Title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    height: auto;
+    margin: auto;
+    background: linear-gradient(45deg, #1b9e77 0%, #1d0533 100%);
+    width: 100%;
+    border-radius: 10px;
+    
+  }
+ #fname{
+     height: 50px;
+     border-radius: 5px;
+     padding: 10px;
+     width: 45%;
+     margin: auto;
+     background: linear-gradient(45deg, #9ee7d5 0%, #8614f1 100%);
+     margin-top: 25px
+ }
+ #mailid{
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
+    margin: auto;
+    background: linear-gradient(45deg, #9ee7d5 0%, #8614f1 100%);
+ }
+ #sub{
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
+    margin: auto;
+    background: linear-gradient(45deg, #9ee7d5 0%, #8614f1 100%);
+ }
+ #msg{
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
+    margin: auto;
+    background: linear-gradient(45deg, #9ee7d5 0%, #8614f1 100%);
+ }
+ #section5Title button{
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    color: black;
+    background: linear-gradient(45deg, #9ee7d5 0%, #8614f1 100%);
+    margin: auto;
+    margin-bottom: 25px;
+ }
+
+ #section5Title button:hover{
+    color: black;
+    background: linear-gradient(45deg, #b19ee7 0%, #c7ac16 100%);
+   
+ }
+
+@media (max-width: 500px) {
+    #section5Title {
+      max-width: 12em;
+      max-height: 12em;
+      margin:auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      /* filter: grayscale(2%) sepia(1%) brightness(100%) hue-rotate(30deg)   invert(12%)  */
+    }
+    #fname{
+        max-width: 12em;
+        max-height: 12em;
+        margin:auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #mailid{
+        max-width: 12em;
+        max-height: 12em;
+        margin:auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #sub{
+        max-width: 12em;
+        max-height: 12em;
+        margin:auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+   }
