@@ -27,10 +27,10 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className="justify-content-center p-3 my-details rounded">
-              Meticulous Full Stack Web Developer dedicated to developing clean and scalable code. <br/>
+              Full Stack Web Developer dedicated to developing clean and scalable code. <br/>
               <br/>
               Passionate about creating the wonderful digital and overall great user experience.<br/>
-              <br/> Effective Communicator and a learning enthusiast with a proactive attitude ready to take up tasks with a commitment to professionalism.
+              <br/>A learning enthusiast with a proactive attitude ready to take up tasks with a commitment to professionalism.
                 <br /> 
                 <br/>
                 <Col className="d-flex justify-content-center flex-wrap">

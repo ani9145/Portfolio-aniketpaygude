@@ -59,7 +59,7 @@
    
  }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     #section5Title {
       max-width: 12em;
       max-height: 12em;
