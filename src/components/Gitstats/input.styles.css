@@ -17,7 +17,8 @@
      width: 45%;
      margin: auto;
      background: linear-gradient(45deg, #9ee7d5 0%, #8614f1 100%);
-     margin-top: 25px
+     margin-top: 25px;
+     color: black;
  }
  #mailid{
     height: 50px;
@@ -26,6 +27,7 @@
     width: 45%;
     margin: auto;
     background: linear-gradient(45deg, #9ee7d5 0%, #8614f1 100%);
+    color: black;
  }
  #sub{
     height: 50px;
@@ -34,6 +36,7 @@
     width: 45%;
     margin: auto;
     background: linear-gradient(45deg, #9ee7d5 0%, #8614f1 100%);
+    color: black;
  }
  #msg{
     height: 100px;
@@ -42,6 +45,7 @@
     width: 45%;
     margin: auto;
     background: linear-gradient(45deg, #9ee7d5 0%, #8614f1 100%);
+    color: black;
  }
  #section5Title button{
     height: 50px;
