@@ -50,7 +50,7 @@
 }
 
 .flex-item-left:hover{
-  background: linear-gradient(45deg, #95cbe0 0%, #012c31 100%);
+  background: linear-gradient(45deg, #adbcc2 0%, #010002 100%);
   cursor: pointer;
 }
 .top-react-icons{

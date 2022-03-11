@@ -27,7 +27,7 @@
 }
 
 .my-details:hover{
-  background: linear-gradient(45deg, #95cbe0 0%, #012c31 100%);
+  background: linear-gradient(45deg, #c9d5da 0%, #000000 100%);
   cursor: pointer;
   color: rgb(7, 7, 7);
 }

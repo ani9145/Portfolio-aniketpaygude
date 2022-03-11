@@ -3,8 +3,8 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import sample from "../../images/projects/Screenshot12.png";
 import sample1 from "../../images/projects/Screenshot13.png";
-// import sample2 from "../../images/projects/dineout.mp4";
-// import sample3 from "../../images/projects/livechat.mp4";
+import sample2 from "../../images/projects/spotify-clone-2.0.png";
+
 import "./projects.styles.css";
 
 const TimeLine = () => {
@@ -84,23 +84,22 @@ const TimeLine = () => {
                 </div>
               </div>
             </li>
-            {/* <li>
+            <li>
               <div className="timeline-content">
-                <h1>GOOGLE MEET CLONE</h1>
+                <h1>SPOTIFY RRACT CLONE</h1>
                 <div style={{ width: "fit-content" }}>
-                  <video className="videoTag" autoPlay loop muted controls>
-                    <source src={sample} type="video/mp4" />
-                  </video>
+                  {/* <video className="videoTag" autoPlay loop muted controls> */}
+                  <img className="videoTag" alt="Nutrify" src={sample2} type="Image/png" />
+                  {/* </video> */}
                 </div>
                 <p>
-                  Google Meet Clone is a simple one-one calling.It also got
-                  couple of features like text messagging from one person to
-                  another,screen sharing and simply calling functionality.This
-                  was done by taking reference from youtube.
+                Spotify clone using react and spotify-api. 
+                Shows recently played and playlists in your account. 
+                You can have 30 seconds of preview only as a limitation of spotify.
                 </p>
                 <div>
                   <a
-                    href="https://github.com/GopiChandana/Google-Meet"
+                    href="https://github.com/yeti201/spotify-clone"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -108,34 +107,18 @@ const TimeLine = () => {
                       Source Code
                     </Button>
                   </a>
-                </div>
-              </div>
-            </li> */}
-            {/* <li>
-              <div className="timeline-content">
-                <h1>LIVE CHAT</h1>
-                <div style={{ width: "fit-content" }}>
-                  <video className="videoTag" autoPlay loop muted controls>
-                    <source src={sample3} type="video/mp4" />
-                  </video>
-                </div>
-                <p>
-                  A Live chat application where we can chat with our friends in
-                  private rooms in real-time.
-                </p>
-                <div>
                   <a
-                    href="https://github.com/GopiChandana/chat_application"
+                    href="https://spotify-clone8.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="m-2" variant="outline-light">
-                      Source Code
+                      Live Demo
                     </Button>
                   </a>
                 </div>
               </div>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div><br/>
