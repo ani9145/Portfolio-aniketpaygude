@@ -36,7 +36,7 @@ const About = () => {
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1nNVW4YIuxQoK1FqxSXmrDOX0uYO_StI7/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1vTB1wprwKHZWtpfZA7v9gTt-kzyHC6zm/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
