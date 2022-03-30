@@ -14,13 +14,13 @@ const Contact = () => {
           <Col className="d-flex justify-content-center flex-wrap">
           <div className="m-2">
               <a
-                href="tel:+91-9028668437"
+                href="tel:+91-7020893064"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button
                   variant="outline-light"
-                  title="+91-9028668437"
+                  title="+91-7020893064"
                 >
                   <i className="fas fa-phone-alt" aria-hidden="true"></i> Call me
                 </Button>
